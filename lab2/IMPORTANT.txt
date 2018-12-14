@@ -1,0 +1,22 @@
+
+	BRn	NEG
+	BRz	ZERO
+		ADD	R6, R6, #1
+		STI	R6, Z
+ZERO	ADD	R6, R6, #0
+	STI	R6, Z
+
+NEG	ADD	R6, R6, #2
+	STI	R6, Z
+
+
+
+	BRz	ZERO
+	BRp	POS
+	BRn	NEG
+NEG	ADD	R6, R6, #1
+
+POS	ADD	R6, R6, #1
+
+ZERO	ADD	R6, R6, #0
+	STI	R6, Z

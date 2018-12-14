@@ -1,0 +1,12 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CONT                    301A
+//	DAYS                    306D
+//	DISPLAY                 3020
+//	HEADING1                3024
+//	HEADING2                302C
+//	LOOP                    301C
+//	NEWLINE                 30B3
+//	PROMPT                  303E
+//	RESTART                 300C
+//	ZP                      3013
